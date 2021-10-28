@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB4</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="lab">
+    <h1>Лабораторная работа 4</h1>
+    <h2>Вариант 6</h2>
+</div>
+<div class="blocks">
+    <div class="block1">
+        <div class="number"></div>
+        <table id="table">
+            <caption>Динамическая таблица</caption>
+            <tr>
+                <td>Пейзаж</td>
+                <td>Тишина</td>
+            </tr>
+            <tr>
+                <td>Фиолетовый</td>
+                <td>Космос</td>
+            </tr>
+        </table>
+        <div class="buttons">
+            <button type="button" class="delTop">Удалить верхнюю строку</button>
+            <button type="button" class="delBot">Удалить нижнюю строку</button>
+            <button type="button" class="show">Сколько было добавлено строк и столбцов?</button>
+        </div>
+    </div>
+    <div class="block2">
+        <form action="#" id="myForm" method="get">
+            <h3>Добавление</h3>
+            <div>
+                <p>Что добавляем?</p>
+                <input name="radio" type="radio" id="radio1" value="Строка" checked>
+                <label for="radio1" class="radio">Строка</label>
+                <input name="radio" type="radio" id="radio2" value="Cтолбец">
+                <label for="radio2" class="radio">Cтолбец</label>
+            </div>
+            <div>
+                <label class="select1"> Куда добавляем?
+                    <select>
+                        <option name="option" value="Верх" selected>Верх</option>
+                        <option name="option" value="Низ">Низ</option>
+                    </select>
+                </label>
+                <label class="select2"> Куда добавляем?
+                    <select>
+                        <option name="option2" value="Право">Право</option>
+                        <option name="option2" value="Лево">Лево</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label class="select3"> Что добавим?
+                    <select>
+                        <option name="option3" value="Звезды">Звезды</option>
+                        <option name="option3" value="Небо">Небо</option>
+                        <option name="option3" value="Поле">Поле</option>
+                        <option name="option3" value="Ночь">Ночь</option>
+                    </select>
+                </label>
+            </div>
+            <button type="submit" class="submit">Добавляем</button>
+        </form>
+    </div>
+</div>
+</body>
+<script src="../js/script.js"></script>
+</html>

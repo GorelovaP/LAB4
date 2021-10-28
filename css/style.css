@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: #7662ad;
+}
+.lab{
+    width: 100%;
+    height: 10%;
+   text-align: center;
+    color: #03245e;
+}
+h1{
+    margin: 10px;
+}
+h2{
+    color: #40164c;
+}
+h3{
+    font-size: 34px;
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-align: center;
+
+}
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0041e6, 0 0 40px #008ae6, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #4dcdff, 0 0 40px #4d94ff, 0 0 50px #4d74ff, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+.blocks{
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+}
+
+.block1{
+    width: 50%;
+}
+.number{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    background:  #0369c4;
+}
+table{
+    width: 90%;
+    border: #151414 3px solid;
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+caption{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+td {
+    border-radius: 5%;
+    padding: 3px;
+    border: 1px solid black;
+}
+.block2{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-image: url("../resource/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width: 70%;
+    height: 50%;
+    background-color: rgba(19, 18, 18, 0.45);
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.select2{
+    display: none;
+}
+.block2 p{
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+label{
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 10px;
+    background-color: #0369c4;
+    color: #d5d3d3;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    border: 2px solid #4e4c4c;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+button:hover{
+    background-color: rgb(5, 27, 165);
+    cursor: pointer;
+}
